@@ -11,4 +11,12 @@ public class BasketPage extends PageObjetModel.BasePage {
 
     }
 
+    public void isBasketPage() {
+    }
+
+    public void deleteAProduct() {
+    }
+
+    public void isEmptyBasket() {
+    }
 }

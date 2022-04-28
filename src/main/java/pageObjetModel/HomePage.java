@@ -11,4 +11,9 @@ public class HomePage extends PageObjetModel.BasePage {
 
     }
 
+    public void isHomePage() {
+    }
+
+    public void searchArea() {
+    }
 }

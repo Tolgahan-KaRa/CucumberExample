@@ -14,4 +14,15 @@ public class ProductPage extends PageObjetModel.BasePage {
     }
 
 
+    public void isProductPage() {
+    }
+
+    public void addAProduct() {
+    }
+
+    public void isIncreasedBasket() {
+    }
+
+    public void clickBasketButton() {
+    }
 }

@@ -11,4 +11,9 @@ public class ProductsPage extends PageObjetModel.BasePage {
 
     }
 
+    public void isProductsPage() {
+    }
+
+    public void selectAProduct() {
+    }
 }
