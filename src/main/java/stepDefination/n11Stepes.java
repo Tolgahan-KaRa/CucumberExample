@@ -27,13 +27,13 @@ public class n11Stepes {
 
         this.driver= Driver.getDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.bkmkitap.com/");
+        driver.get("https://www.n11.com/");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
     }
 
-    @And("^search product \"([^\"]*)\"$")
-    public void searchProduct(String text) throws Throwable {
+    @And("^search product$")
+    public void searchProduct() throws Throwable {
 
         homepage = new HomePage(driver);
         homepage.isHomePage();
